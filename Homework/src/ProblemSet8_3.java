@@ -1,11 +1,11 @@
-public class ProblemSet8_1 {
+public class ProblemSet8_3 {
 
     public static void main(String args[]) {
-        int[] solarray = new int[207];
+        int[] solarray = new int[201];
         for (int i = 1; i < 100; i++) {
             for (int j = 1; j < 100; j++) {
                 for (int k = 1; k < 100; k++) {
-                    if (good(i, j) && good(j, k) && good(i, k)) {
+                    if (good(i, j, k)) {
                         append(solarray, i, j, k);
                     }
                 }
@@ -13,10 +13,12 @@ public class ProblemSet8_1 {
         }
         printDiophantineArray(solarray);
     }
-    static boolean good(int a, int b) {
-        int x = a * b + 1;
-        int y = (int) (Math.sqrt(x) + .5);
-        return (y * y == x);
+    static boolean good(int a, int b, int c) {
+        a*=a;
+        b*=b;
+        int x = a + b;
+        int y = c*c;
+        return (x == y);
     }
 
     public static void append(int[] a, int b, int c, int d){
