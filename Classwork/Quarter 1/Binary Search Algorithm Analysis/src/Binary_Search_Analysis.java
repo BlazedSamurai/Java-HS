@@ -189,6 +189,11 @@ public class Binary_Search_Analysis
         int high = array.length;
         int location = -1;
 
+        if (isSortedAsc(array)==false){
+            System.out.println("Dum dum, array not sorted!");
+            return -1;
+        }
+
         while(found==false && low<high){
             int index = (low+high)/2;
             if(e.compareTo(array[index])==0){
