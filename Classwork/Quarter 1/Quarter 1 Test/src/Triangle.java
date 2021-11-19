@@ -42,6 +42,7 @@ public class Triangle extends Shape{
     public double getPerimeter() {
         return this.side1 + this.side2 + this.side3;
     }
+
     public double compareTo(Triangle o){
         return this.getArea() - o.getArea();
     }

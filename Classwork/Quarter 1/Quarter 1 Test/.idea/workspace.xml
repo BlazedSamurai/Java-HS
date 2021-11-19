@@ -5,12 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7081feb2-a743-4810-afc0-ff3a8a4694b8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quarter 1 Test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Quarter 1 Test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Quarter 1 Test/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Quarter 1 Test/Circle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Quarter 1 Test/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Quarter 1 Test/Rectangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Quarter 1 Test/Shape.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Quarter 1 Test/Shape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Quarter 1 Test/Square.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Quarter 1 Test/Square.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Quarter 1 Test/TestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Quarter 1 Test/TestClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Quarter 1 Test/Triangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Quarter 1 Test/Triangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Triangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +85,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1633053693162</updated>
-      <workItem from="1633053694498" duration="2957000" />
+      <workItem from="1633053694498" duration="3766000" />
     </task>
     <servers />
   </component>
