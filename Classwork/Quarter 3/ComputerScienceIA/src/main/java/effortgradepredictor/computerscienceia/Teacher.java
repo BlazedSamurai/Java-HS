@@ -10,7 +10,7 @@ public class Teacher extends Person{
         classes = classes;
     }
 
-    public removeClass(){
+    public removeClass(int classID){
         
     }
     

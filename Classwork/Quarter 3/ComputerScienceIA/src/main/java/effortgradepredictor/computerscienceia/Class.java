@@ -1,3 +1,5 @@
+package effortgradepredictor.computerscienceia;
+
 public class Class {
     private String classname;
     private Teacher teacher;
