@@ -1,6 +1,7 @@
 package effortgradepredictor.computerscienceia;
 
 import java.io.*;
+import java.util.*;
 
 public class HomeworkStudentLinkedList implements Serializable{
 	NodeHwStudent start;		// beginning/head/access point of the L. List
@@ -23,10 +24,10 @@ public class HomeworkStudentLinkedList implements Serializable{
 		temp.next = newNode;
 	}
 	
-	public void printList()
+	public void printListOfHomeworksStudentID()
 	{	
-		if( isEmpty() )
-		{	System.out.println("List is empty");
+		if(isEmpty()==true)
+		{	System.out.println("List is empty. Please add an element to store data in the list");
 			return;
 		}
 		NodeHwStudent temp = start;
@@ -37,6 +38,52 @@ public class HomeworkStudentLinkedList implements Serializable{
 		}
 		System.out.println(); //" <- End");
 	}
+        
+        
+        public void printListOfHOmeworksCompleted{
+                if (isEmpty() == true){
+                    System.out.println("The list is empty. Please add an element to print the data in the list");
+                    return;
+                }
+                
+                boolean continues = true;
+                Scanner sc = new Scanner(System.in);
+                
+                do{
+                    System.out.println("\n\t===MENU====");
+                    System.out.println("What information would you like to be printed for each completed homework?");
+                    System.out.println("Please enter the character displayed in the bracket");
+                    System.out.println("[ID] Homework ID");
+                    System.out.println("[S] Set Date");
+                    System.out.println("[DD] Due Date");
+                    System.out.println("[DT] Due Time");
+                    System.out.println("[D] Description");
+                    System.out.println("[*] I am done selecting options");
+                    String decision = sc.nextLine();
+                    String Decision = decision.toLowerCase();
+                    System.out.println("Start -> ");
+                    switch(Decision){
+                        case "id":
+                            NodeHwStudent temp = start;
+                            while (temp !=null){
+                                System.out.print(temp.getHomeworkID() + " ");
+                                temp = temp.next;
+                            }
+                            returns;
+                        case "s":
+                            NodeHwStudent temp = start;
+                            while
+                    }
+                    
+                    
+                } while(continues == true);
+    
+                
+                NodeHwStudent temp = start;
+                System.out.println("List of Completed Homeworks");
+                
+        
+}
 	
         //To remove based on the ID
 	public void removesearchID(int searchID)
