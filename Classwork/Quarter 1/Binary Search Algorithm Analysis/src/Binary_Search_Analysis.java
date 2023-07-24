@@ -29,7 +29,6 @@ public class Binary_Search_Analysis
         }
         return b;
     }
-
     public static boolean isFull(String[] a)
     {
         return lastIndex == a.length;
